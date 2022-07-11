@@ -3,5 +3,5 @@ Set of scripts to plot navigated paths on Google Maps
 
 ## Install the requirements
 ```
-pip3 install salem
+pip3 install pyproj salem
 ```
