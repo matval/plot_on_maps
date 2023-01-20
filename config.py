@@ -5,3 +5,10 @@ class Config(dict):
 
         self.folders = [self.root + '/bag_tmp',
                         self.root + '/bag_tmp']
+
+        self.gpslon = [-88.2272, -88.2271]
+        self.gpslat = [ 40.1028,  40.10286]
+
+        self.colorlines     = ['red', 'blue']#, 'red', 'blue']
+        self.label_lines    = ['RGB only', 'RGB+Depth']#'BADGR']#, 'LiDAR', 'WayFAST (Ours)']
+        self.marks          = ['solid', 'solid']
